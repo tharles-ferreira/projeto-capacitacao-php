@@ -2,31 +2,22 @@
 
 require_once 'config/config.php';
 
+require_once 'includes/header.php';
+
 ?>
-<!DOCTYPE html>
-<html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capacitação Execução Orçamentária</title>
-
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
     <h1><?php echo APP_NAME; ?></h1>
 
     <div id="header">
 
         <div id="logo">
-            <h1><?= APP_NAME ?></h1>
+       
         </div>
     
         <div id="menu">
-            <a href="index.html">Fluxo de Processos COGEO</a>
-            <a href="jogos.html">Modelos de Documentos</a>
-            <a href="smartphones.html">A definir</a>
+            <a href="index.php">Fluxo de Processos COGEO</a>
+            <a href="jogos.php">Modelos de Documentos</a>
+            <a href="smartphones.php">A definir</a>
         </div>
 
     </div>
@@ -107,6 +98,8 @@ require_once 'config/config.php';
         </div>
 
     </div>
-</body>
+<?php
 
-</html>
+require_once 'includes/footer.php';
+
+?>
