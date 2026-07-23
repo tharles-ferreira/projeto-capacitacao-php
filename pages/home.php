@@ -1,4 +1,4 @@
-<h1><?php APP_NAME; ?></h1>
+<h1><?= APP_NAME ?></h1>
 
     <div id="header">
 
@@ -96,11 +96,6 @@
         </div>
         -->
 
-        <div id="footer">
-            Coordenação de Gestão de Empreendimentos e Execução Orçamentária (COGEO)
-            <br>
-            Tharles Mendonça - Administrador
-        </div>
 
     </div>
 <?php
